@@ -1,0 +1,105 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eaf0ef;
+  color: #333;
+}
+
+/* Card styling */
+.card {
+  max-width: 400px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  
+}
+
+/* Card body */
+.card-body {
+  padding: 20px;
+  
+}
+
+/* Title styling */
+.card-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4a90e2;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+form input[type="submit"]:hover {
+  background-color: #357ab8;
+}
+
+/* Todo list items */
+h3 {
+  font-size: 1.1rem;
+  margin: 10px 0 red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #d7edec;
+  
+}
+
+h5 .btn1 {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn2 {
+  background-color: #c0392b;
+  border: 2px 2px red;  
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: white;
+}
+.btn1{
+  background-color: #500cc6;
+  border: 2px 2px rgb(49, 15, 197);  
+  margin: 10px 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+}
